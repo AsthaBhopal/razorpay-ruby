@@ -17,5 +17,6 @@ module Razorpay
 
 	    def self.recon(options = {})
 	    	request.get 'recon/combined', options
+	    end 
 	end 
 end 
